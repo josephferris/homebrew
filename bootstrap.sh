@@ -30,5 +30,5 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 # Run .macos bootstrap script.
 if [ "$(uname -s)" === Darwin ]; then
   echo "Running `source .macos`"
-  # source .macos
+  source .macos
 fi
